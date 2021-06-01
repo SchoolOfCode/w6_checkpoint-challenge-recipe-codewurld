@@ -1,0 +1,19 @@
+* {
+    background-color: #F1F7ED;
+}
+
+/* #border-creation {
+    border-style: solid; */
+    /* margin: 30px auto 15px; */
+ 
+/* } */
+
+h2 {
+    /* margin-left: 300px; */
+    align-items: center;
+    justify-content: center;
+    margin: 6px auto 5px;
+}
+.section-heading {
+    align-items: center;
+}

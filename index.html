@@ -1,23 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fetch</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fetch</title>
+  <link rel="stylesheet" href="recipe.css">
+</head>
+
+<body>
+  <div id="border-creation">
     <section id="recipe-section">
-      <h2 class="section-heading">Welcome to the Recipe Finder!</h2>
-      <input
-        aria-label="food-input"
-        id="food-input"
-        onchange="handleFoodChange()"
-      />
+      <h2 class="section-heading">Welcome to ChopWell Recipe Finder!</h2>
+      <input aria-label="food-input" id="food-input" placeholder="Enter your search" onchange="handleFoodChange()" />
       <button id="recipe-button" onclick="handleRecipeClick()">
         Give me a recipe!
       </button>
-      <a id="recipe-label"></a>
+
+      <figure><img id="recipe-image1" alt="Image of Receipe"></figure>
+      <figcaption class="recipe-caption"><a id="recipe-label1"></a></figcaption>
+
+      <figure><img id="recipe-image2" alt="Image of Receipe"></figure>
+      <figcaption class="recipe-caption"><a id="recipe-label2"></a></figcaption>
+
+      <figure><img id="recipe-image3" alt="Image of Receipe"></figure>
+      <figcaption class="recipe-caption"><a id="recipe-label3"></a></figcaption>
+
+      <article id="music-playlist"></article>
+      <!-- 
+      <aside id="current-weather">Current Weather</aside> -->
+
     </section>
-    <script src="./main.js"></script>
-  </body>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
 </html>
